@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Login from './registration/Login'
+import Card from '../components/card/Card'
+
 function Home() {
   return (
     <div>
         <Navbar/>
-        <Login/>
+        <Card/>
     </div>
   )
 }
